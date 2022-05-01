@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a currencty</h1>
+        <h1 className='coin-text'>Search a cryptocurrency </h1>
         <form>
           <input className='inputtext' type='text' placeholder='seach' onChange={handleChange} />
         </form>
